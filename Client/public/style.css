@@ -1,0 +1,119 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: rgb(212, 212, 212);
+  margin-top: 60px;
+  background-color: #304037;
+}
+
+
+html {
+  background-color: #304037;
+}
+
+.header {
+  border-bottom: 1px solid;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+  
+.nav {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  width: 100%;
+  padding-inline-start: 0;
+}
+  
+.navbar-dark {
+  margin: 0;
+}
+
+.header-info {
+  margin-bottom: 15px;
+  width: 35%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-info__title {
+  font-size: 20px;
+  padding-top: 15px;
+}
+
+.header-info__value {
+  height: 48px;
+  box-shadow: none;
+  outline: none;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 6px;
+  font-size: 18px;
+  margin-top: 6px;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.35);
+  color: inherit;
+}
+
+.header-info-btn {
+  cursor: pointer;
+  background-color: #47631d;
+  border: 1px solid #47631d;
+  color: white;
+  font-weight: bold;
+  outline: none;
+  border-radius: 6px;
+  padding: 10px 5px;
+}
+
+.menu-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.product-list {
+  list-style-type: none;
+  padding: 10px;
+  border: 1px solid rgb(204, 186, 186);
+  border-radius: 10px;
+  flex-direction: column;
+  margin:10px;
+  width: 400px;
+}
+
+.list-btn {
+  cursor: pointer;
+  background-color: rgb(146, 52, 52);
+  border: 1px solid rgb(146, 52, 52);
+  color: white;
+  font-weight: bold;
+  outline: none;
+  border-radius: 6px;
+  padding: 10px 5px;
+  width: 100px;
+  margin-top: 10px;
+
+}
+
+.card-img-top {
+  max-height: 200px;
+  width: auto;
+  margin: 10px 0;
+}
+
+.zxc {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
